@@ -22,8 +22,7 @@
 *   **模型对比**: 分别构建了**逻辑回归**（作为基线）和**LightGBM**（作为高性能模型），并在包含30多个特征的数据集上进行了训练与评估。
 *   **模型性能**: LightGBM模型表现更优，在测试集上取得了 **Accuracy: 0.6975** 和 **AUC: 0.7464** 的成绩。
 
-![Feature Importance](https-placeholder-for-your-feature-importance-image.png)
-*(请务必上传特征重要性图并替换此链接)*
+<img width="1304" height="750" alt="Image" src="https://github.com/user-attachments/assets/b1a9d4f2-524e-409d-814f-8b770fa5e298" />
 
 ## 2. 商业洞察与策略建议
 LightGBM的特征重要性分析清晰地指出了影响客户决策的关键因素，如 **`balance`(余额)**, **`age`(年龄)**, **`pdays`(上次联系间隔)** 等。
